@@ -1,0 +1,1 @@
+document.querySelector('.para').innerHTML = 'Hello World';

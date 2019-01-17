@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Express Static Serving</title>
+	<link rel="stylesheet" href="public/style/style.css">
+</head>
+<body>	
+    <form action="/" method="post" id="form">
+        <label for="email">Email Address:</label>
+        <input type="email" name="email">
+        <label for="password">password:</label>
+        <input type="password" name="password">
+        <button type="submit">Submit</button>
+    </form>
+	<script
+	src="https://code.jquery.com/jquery-3.3.1.min.js"
+	integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+	crossorigin="anonymous"></script>
+	<script>
+	// $(document).ready(() => {
+	// 	$('#form').on('submit', (e) => {
+	// 		e.preventDefault();
+	// 		$.ajax({
+	// 			url : '/',
+	// 			type : 'post',
+	// 			contentType: 'application/json',
+	// 			data : JSON.stringify($('#form').serializeArray()),
+	// 			success : (response) => {
+	// 				console.log('Success');
+	// 				console.log(response);
+	// 			} 
+	// 		})
+	// 	})
+	// })
+	</script>
+</body>
+</html>
